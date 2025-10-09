@@ -1,0 +1,37 @@
+/*
+Regla CC consta de 2 partes:
+    Selector{
+        Declaración (son los aatributos que le damos a un elemento)
+        atributo: valor;
+    }
+*/
+
+h1{
+    color: rgb(255, 0, 0); /*Atributo color con valor blue*/
+    background-color: rgb(21, 0, 255); /*Atributo background-color con valor yellow*/
+}
+
+button{
+    background-color: rgba(85, 255, 0, 0.568);
+    color: rgb(255, 255, 255);
+}
+
+/* Otro tipo de selectores son las clases */
+
+.azul{
+    background-color: cornflowerblue;
+    color: rgb(35, 93, 130);
+}
+
+.verde{
+    background-color: yellowgreen;
+    color: rgb(132, 94, 186);
+}
+
+.text-20{
+    font-size: 20px;
+}
+
+.text-35{
+    font-size: 35px;
+}

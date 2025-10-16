@@ -35,3 +35,27 @@ button{
 .text-35{
     font-size: 35px;
 }
+
+/* Manejar colores con nombre */
+
+.color-by-name{
+    background-color: red;
+    color: white;
+    border: thick solid yellow;
+}   
+
+/* Manejar colores con Hexadecimal */
+
+.color-by-hex{
+    background-color: #F555;
+    color: #FFFF;
+    border: thick solid #256A;
+}  
+
+/* Manejar colores con RGB */
+
+.color-by-rgb{
+    background-color: rgb(208, 123, 124);
+    color: rgb(0, 0, 0);
+    border: thick solid rgb(87, 87, 114);
+}

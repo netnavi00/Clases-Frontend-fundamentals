@@ -1,0 +1,38 @@
+.contenedor{
+    background-color: darkblue;
+    color: white;
+    width: 80%;
+    border: solid thick black;
+    border-radius: 10px;
+}
+
+.formulario{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.caja{
+    display: flex;
+    flex-direction: row;
+}
+
+.caja-label{
+    flex-basis: 150px;
+    margin:5px 0px;
+
+}
+
+h2 {
+    text-align: center;
+}
+
+button {
+    background-color: darkblue;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+}
